@@ -28,9 +28,21 @@ header {
 
 
 
-
+/* ABOUT */
 .ms_col_about {
     /* height: 50px; */
     background-color: yellow;
+    border: 1px solid black;
+}
+
+/* CONTACT */
+.ms_col_contact {
+    background-color: blue;
+}
+
+/* INFO */
+.ms_col_info {
+    background-color: orange;
+    text-align: center;
     border: 1px solid black;
 }
