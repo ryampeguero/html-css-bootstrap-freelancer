@@ -1,0 +1,24 @@
+
+header {
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.ms_container {
+    border: 1px solid black;
+}
+
+.ms_row {
+    height: 400px;
+    background-color: lightcoral;
+}
+
+.ms_col {
+    border: 1px solid black;
+}
+
+.ms_row_portfolio {
+    height: 400px;
+    background-color: lightgreen;
+}
