@@ -1,6 +1,7 @@
 :root {
     --ms_color_primary: #2C3E50;
     --ms_color_secondary: #1ABC9C;
+    --ms_color_tfooter: #3A546D;
 }
 
 
@@ -59,6 +60,10 @@ img {
     background-color: var(--ms_color_secondary);
 }
 
+.ms_tfooter {
+    background-color: var(--ms_color_tfooter);
+}
+
 
 /* MAIN */
 
@@ -112,7 +117,22 @@ img {
 
 /* INFO */
 .ms_col_info {
-    background-color: orange;
-    text-align: center;
+    background-color:ù orange;
+
     border: 1px solid black;
+}
+
+.share-icons i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid white;
+}
+
+/* COPYRIGHT */
+.ms_footer p {
+    padding: 20px 0px 10px 0;
 }
